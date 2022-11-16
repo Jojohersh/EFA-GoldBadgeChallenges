@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenge4", "Challenge4", "{1863D518-6FF9-42B7-A1FD-6B94016335B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Data", "Challenge4\KomodoOutings.Data\KomodoOutings.Data.csproj", "{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.Tests", "Challenge4\KomodoOutings.Tests\KomodoOutings.Tests.csproj", "{FAA8470F-E788-4F98-A18B-54C7606B9DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoOutings.UI", "Challenge4\KomodoOutings.UI\KomodoOutings.UI.csproj", "{29F3ACC7-E303-4028-8474-725BEDD234C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Challenge5", "Challenge5", "{A8683185-2D5C-4758-8CD8-7AAD63EE3335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Data", "Challenge5\KomodoGreeting.Data\KomodoGreeting.Data.csproj", "{AA24E0E4-5042-4A73-9093-5F24AC6C73D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.Tests", "Challenge5\KomodoGreeting.Tests\KomodoGreeting.Tests.csproj", "{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KomodoGreeting.UI", "Challenge5\KomodoGreeting.UI\KomodoGreeting.UI.csproj", "{412C3C02-DA9B-4001-B784-BB572390A9F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA8470F-E788-4F98-A18B-54C7606B9DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA8470F-E788-4F98-A18B-54C7606B9DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA8470F-E788-4F98-A18B-54C7606B9DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA8470F-E788-4F98-A18B-54C7606B9DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F3ACC7-E303-4028-8474-725BEDD234C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F3ACC7-E303-4028-8474-725BEDD234C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F3ACC7-E303-4028-8474-725BEDD234C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F3ACC7-E303-4028-8474-725BEDD234C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA24E0E4-5042-4A73-9093-5F24AC6C73D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA24E0E4-5042-4A73-9093-5F24AC6C73D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA24E0E4-5042-4A73-9093-5F24AC6C73D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA24E0E4-5042-4A73-9093-5F24AC6C73D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412C3C02-DA9B-4001-B784-BB572390A9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412C3C02-DA9B-4001-B784-BB572390A9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412C3C02-DA9B-4001-B784-BB572390A9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412C3C02-DA9B-4001-B784-BB572390A9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{746ABE9B-7CEC-47FA-A7AD-F6A0314434A8} = {1863D518-6FF9-42B7-A1FD-6B94016335B4}
+		{FAA8470F-E788-4F98-A18B-54C7606B9DAF} = {1863D518-6FF9-42B7-A1FD-6B94016335B4}
+		{29F3ACC7-E303-4028-8474-725BEDD234C8} = {1863D518-6FF9-42B7-A1FD-6B94016335B4}
+		{AA24E0E4-5042-4A73-9093-5F24AC6C73D3} = {A8683185-2D5C-4758-8CD8-7AAD63EE3335}
+		{D0E3D2D2-7465-4D58-95A5-A9BD2E443D66} = {A8683185-2D5C-4758-8CD8-7AAD63EE3335}
+		{412C3C02-DA9B-4001-B784-BB572390A9F7} = {A8683185-2D5C-4758-8CD8-7AAD63EE3335}
+	EndGlobalSection
+EndGlobal
