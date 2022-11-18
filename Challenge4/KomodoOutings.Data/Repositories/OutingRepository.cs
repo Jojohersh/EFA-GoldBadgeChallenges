@@ -51,25 +51,25 @@ public class OutingRepository
         Outing outing1 = new Outing(
             EventType.Golf,
             12,
-            new DateTime(2017,9,10),
+            new DateOnly(2017,9,10),
             3456.12m
         );
         Outing outing2 = new Outing(
             EventType.Golf,
             14,
-            new DateTime(2000,1,3),
+            new DateOnly(2000,1,3),
             896.43m
         );
         Outing outing3 = new Outing(
             EventType.Concert,
             450,
-            new DateTime(345,5,4),
+            new DateOnly(345,5,4),
             34.3m
         );
         Outing outing4 = new Outing(
             EventType.Bowling,
             98,
-            new DateTime(2006,12,9),
+            new DateOnly(2006,12,9),
             592.52m
         );
         AddOuting(outing1);

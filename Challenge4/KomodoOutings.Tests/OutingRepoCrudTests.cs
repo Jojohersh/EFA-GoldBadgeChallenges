@@ -11,7 +11,7 @@ public class UnitTest1
         Outing outing = new Outing(
             EventType.Golf,
             100,
-            new DateTime(2022,10,24),
+            new DateOnly(2022,10,24),
             1002m
         );
 
@@ -26,19 +26,19 @@ public class UnitTest1
         Outing outing1 = new Outing(
             EventType.Bowling,
             20,
-            new DateTime(2022,09,1),
+            new DateOnly(2022,09,1),
             285.04m
         );
         Outing outing2 = new Outing(
             EventType.AmusementPark,
             100,
-            new DateTime(2022, 09, 2),
+            new DateOnly(2022, 09, 2),
             29.4m
         );
         Outing outing3 = new Outing(
             EventType.Bowling,
             300,
-            new DateTime(2022,08,12),
+            new DateOnly(2022,08,12),
             3000000.1m
         );
 
@@ -51,8 +51,8 @@ public class UnitTest1
         List<Outing> outings = outingRepo.GetAllOutings();
         //assert
         Assert.Equal(EventType.AmusementPark,outings.ElementAt(0).EventType);
-        Assert.Equal(new DateTime(2022,08,12), outings.ElementAt(1).Date);
-        Assert.Equal(new DateTime(2022,09,1), outings.ElementAt(2).Date);
+        Assert.Equal(new DateOnly(2022,08,12), outings.ElementAt(1).Date);
+        Assert.Equal(new DateOnly(2022,09,1), outings.ElementAt(2).Date);
     }
     [Fact]
     public void GetOneOutingByID_IDShouldBeZero() {
@@ -60,7 +60,7 @@ public class UnitTest1
         Outing outing = new Outing(
             EventType.Bowling,
             100,
-            new DateTime(2022,1,1),
+            new DateOnly(2022,1,1),
             1400.3m
         );
         OutingRepository outingRepo = new OutingRepository();
@@ -77,14 +77,14 @@ public class UnitTest1
         Outing outing = new Outing(
             EventType.AmusementPark,
             10,
-            new DateTime(2022,10,20),
+            new DateOnly(2022,10,20),
             100.10m
         );
         OutingRepository db = new OutingRepository();
         Outing newOuting = new Outing(
             EventType.Bowling,
             9,
-            new DateTime(1942,3,4),
+            new DateOnly(1942,3,4),
             20_000.56m
         );
         //act
@@ -96,7 +96,7 @@ public class UnitTest1
 
         Assert.Equal(EventType.Bowling,updatedOuting.EventType);
         Assert.Equal(9,updatedOuting.NumAttendees);
-        Assert.Equal(new DateTime(1942,3,4), updatedOuting.Date);
+        Assert.Equal(new DateOnly(1942,3,4), updatedOuting.Date);
         Assert.Equal(20_000.56m, updatedOuting.TotalCost);
     }
     [Fact]
@@ -104,7 +104,7 @@ public class UnitTest1
         Outing outing = new Outing(
             EventType.Concert,
             300,
-            new DateTime(2010,9,4),
+            new DateOnly(2010,9,4),
             40_000.45m
         );
         OutingRepository db = new OutingRepository();
